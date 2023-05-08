@@ -30,7 +30,7 @@ int check_cycle(listint_t *list)
 				if (p->next == list)
 					break;
 
-				list = list->next
+				list = list->next;
 			}
 			return (1);
 		}
