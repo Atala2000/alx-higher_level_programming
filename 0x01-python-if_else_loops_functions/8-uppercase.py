@@ -5,5 +5,5 @@ def uppercase(str):
         if x >= 97 and x <= 122:
             x -= 32
             x = chr(x)
-            print("{}".format(x), end='')
+            print("{}".format(x), end=' ')
         print("")
