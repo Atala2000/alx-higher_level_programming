@@ -5,7 +5,7 @@ modulus = abs(number) % 10
 if number < 0:
     modulus = number * -1
     modulus = modulus % 10
-    modulus =modulus * -1
+    modulus = modulus * -1
 else:
     modulus = number % 10
 if modulus > 5:
