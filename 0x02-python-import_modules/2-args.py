@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-if __name__ = "__main__":
+if __name__ == "__main__":
     from sys import argv
 argc = len(argv)
 if argc < 2:
@@ -9,5 +9,5 @@ else:
         print("{} arguments:".format(argc - 1))
     else:
         print("{} arguments:".format(argc - 1))
-    for x in range(1, argc):
+    for n in range(1, argc):
         print("{}: {}".format(n, argv[n]))
