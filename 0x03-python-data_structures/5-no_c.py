@@ -1,11 +1,7 @@
 #!/usr/bin/python3
-def new_in_list(my_list, idx, element):
-    x = len(my_list)
-    list_cpy = my_list.copy()
-    if idx < 0:
-        return list_cpy
-    elif idx > n - 1:
-        return list_cpy
-    else:
-        list_cpy[idx] = element
-        return list_cpy
+def no_c(my_string):
+    result = []
+    for x in my_string:
+        if x != 'c' and x != 'C':
+            result.append(x)
+    return ''.join(result)
