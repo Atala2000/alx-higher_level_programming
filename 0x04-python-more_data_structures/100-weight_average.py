@@ -8,5 +8,5 @@ def weight_average(my_list=[]):
     for item in my_list:
         score, weight = item
         tWeight += weight
-        tScore += score * wieght
+        tScore += score * weight
     return tScore / tWeight
