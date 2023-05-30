@@ -22,8 +22,8 @@ class Square():
             for y in range(self.__position[1]):
                 square_str += '\n'
             for x in range(self.__size):
-                square_str += '' * self.__position[0]
-                square_str += '#' * self._size + '\n'
+                square_str += ' ' * self.__position[0]
+                square_str += '#' * self.__size + '\n'
 
         return square_str[:-1]
 
