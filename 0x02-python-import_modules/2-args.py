@@ -10,4 +10,4 @@ elif pl == 1:
 else:
     print(f"{(pl - 1):d} arguments:")
     for x in range(1, pl):
-        print(f"{x:d} : {argv[x]}")
+        print(f"{x:d}: {argv[x]}")
