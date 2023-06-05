@@ -5,5 +5,5 @@ Empty Rectangle
 
 
 class Rectangle:
-	"""Is empty"""
-	pass
+    """Is empty"""
+    pass
