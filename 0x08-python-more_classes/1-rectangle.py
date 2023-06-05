@@ -3,6 +3,7 @@
 Class that defines a rectangle
 """
 
+
 class Rectangle:
     """Rectangle"""
     def __init__(self, width=0, height=0):
@@ -29,7 +30,6 @@ class Rectangle:
         """Height attribute"""
         return self.__height
 
-
     @height.setter
     def height(self, value):
         """Height attribute"""
@@ -38,4 +38,3 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
-
