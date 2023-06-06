@@ -1,0 +1,48 @@
+#0-add_integer.txt
+=====================
+
+Using 0-add_integer.py
+-----------------------
+
+Import function from module:
+    >>> add_integer = __import__('0-add_integer').add_integer
+    >>> add_integer(8, 9)
+    17
+
+pos and neg:
+    >>> add_integer(9, -8)
+    1
+
+negative and positive test
+    >>> add_integer(-4, 7)
+    3
+
+incase the number is a float:
+    >>> add_integer(4.0, 5.0)
+    9
+
+incse one of it is float:
+    >>> add_integer(5, 7.8)
+    12
+
+float with int:
+    >>> add_integer(2.3, 4)
+    6
+
+normal case that is all are positive:
+    >>> add_integer(5, 6)
+    11
+
+non integer with integer:
+    >>> add_integer("Hello", 2)
+    Traceback (most recent call last):
+    ...
+    TypeError: a must be an integer
+
+non integer with non integer:
+    >>> add_integer([2], [5])
+    Traceback (most recent call last):
+    ...
+    TypeError: a must be an integer
+
+
