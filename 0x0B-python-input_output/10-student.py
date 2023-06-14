@@ -12,9 +12,9 @@ class Student:
         self.last_name = last_name
         self.age = age
 
-    def to_json(self):
+    def to_json(self, attrs=None):
         """Returns descr"""
-        return self.__dict__.copy()
+        obj = self.__dict__.copy()
         if type(attrs) is list:
 
             for item in attrs:
