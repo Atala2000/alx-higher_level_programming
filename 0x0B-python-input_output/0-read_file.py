@@ -6,7 +6,7 @@ def read_file(filename=""):
     """Function that reads file conent
 
     Args:
-        filename: filename
+        filename (str): filename
 
     Raises
         Exception when file unopenable
