@@ -3,7 +3,7 @@
 
 
 def read_file(filename=""):
-    """Function
+    """Function that reads file conent
 
     Args:
         filename: filename
