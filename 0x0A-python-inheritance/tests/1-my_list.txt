@@ -1,0 +1,8 @@
+    >>> l = MyList()
+    >>> l.print_sorted()
+    []
+
+    >>> l.print_sorted()
+    [1, 2, 3, 4]
+
+
