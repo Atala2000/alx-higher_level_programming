@@ -1,2 +1,2 @@
 -- displaying all tables
-SELECT * FROM $a[ -1 ]
+SHOW TABLES;
