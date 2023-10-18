@@ -1,2 +1,2 @@
 -- displaying all tables
-SELECT * FROM $5
+SELECT * FROM $a[ -1 ]
