@@ -10,5 +10,4 @@ Object.keys(dict).forEach(function (key) {
   newObj[dict[key]].push(key);
 });
 
-
 console.log(newObj);
