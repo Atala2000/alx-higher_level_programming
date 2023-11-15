@@ -5,15 +5,15 @@
 const OldSquare = require('./5-square');
 
 module.exports = class Square extends OldSquare {
-  constructor(size) {
+  constructor (size) {
     super(size, size);
   }
 
-  double() {
+  double () {
     super.double();
   }
 
-  charPrint(c = 'X') {
+  charPrint (c = 'X') {
     for (let i = 0; i < this.height; i++) {
       let row = '';
       for (let j = 0; j < this.width; j++) {
