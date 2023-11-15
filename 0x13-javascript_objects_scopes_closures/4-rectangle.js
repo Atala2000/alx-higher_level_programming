@@ -24,4 +24,17 @@ module.exports = class Rectangle {
       console.log('Invalid width or height');
     }
   }
+
+  rotate () {
+    // Exchange the width and height of the rectangle
+    const temp = this.width;
+    this.width = this.height;
+    this.height = temp;
+  }
+
+  double () {
+    // Multiply the width and height of the rectangle by 2
+    this.width *= 2;
+    this.height *= 2;
+  }
 };
