@@ -21,5 +21,5 @@ if __name__ == "__main__":
     cur.execute("SELECT * FROM states")
     x = cur.fetchall()
 
-for results in x:
-    print(f"{results}")
+    for results in x:
+        print(f"{results}")
