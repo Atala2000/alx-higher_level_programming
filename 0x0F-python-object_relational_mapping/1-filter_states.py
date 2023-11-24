@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
     cur = db.cursor()
     cur.execute(
-        "SELECT * FROM hbtn_0e_0_usa.states WHERE name LIKE 'N%' ORDER BY id ASC"
+        "SELECT * FROM states WHERE name LIKE BINARY 'N%' ORDER BY states.id ASC"
     )
     x = cur.fetchall()
 
