@@ -9,10 +9,12 @@ db = MySQLdb.connect(
     passwd=sys.argv[2],
     db=sys.argv[3],
 )
-cur = db.cursor()
-cur.execute("SELECT * FROM states ORDER BY states.id ASC")
-x = cur.fetchall()
 
-print(f"{type(x)}")
+if __name__ == "__main__":
+    cur = db.cursor()
+    cur.execute("SELECT * FROM states ORDER BY states.id ASC")
+    x = cur.fetchall()
 
-db.close()
+    print(f"{type(x)}")
+
+    db.close()
