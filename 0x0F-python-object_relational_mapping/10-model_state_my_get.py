@@ -22,4 +22,4 @@ if __name__ == "__main__":
     if instance is None:
         print("Not found")
     else:
-        print(f"{instance,id}")
+        print(f"{instance.id}")
