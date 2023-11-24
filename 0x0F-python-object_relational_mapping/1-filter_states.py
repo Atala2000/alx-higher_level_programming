@@ -18,7 +18,9 @@ if __name__ == "__main__":
     )
 
     cur = db.cursor()
-    cur.execute("SELECT * FROM hbtn_0e_0_usa.states WHERE name LIKE 'N%'")
+    cur.execute(
+        "SELECT * FROM hbtn_0e_0_usa.states WHERE name LIKE 'N%' ORDER BY id ASC"
+    )
     x = cur.fetchall()
 
     for results in x:
