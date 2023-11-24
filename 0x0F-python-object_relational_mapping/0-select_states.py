@@ -15,6 +15,7 @@ if __name__ == "__main__":
     cur.execute("SELECT * FROM states ORDER BY states.id ASC")
     x = cur.fetchall()
 
-    print(f"{type(x)}")
+    for results in x:
+        print(f"{results}")
 
     db.close()
