@@ -1,8 +1,14 @@
 #!/usr/bin/python3
+"""
+Script that lists all states from database
+"""
 import MySQLdb
 import sys
 
 if __name__ == "__main__":
+    """
+    Allows access to the database
+    """
     db = MySQLdb.connect(
         host="localhost",
         port=3306,
