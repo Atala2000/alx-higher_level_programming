@@ -22,7 +22,7 @@ if __name__ == "__main__":
     query = session.query(City, State).join(State)
 
     for city, state in query.all():
-        print(f"{state.name}: {city.id:d} {city.name}")
+        print(f"{state.name}: ({city.id:d}) {city.name}")
 
     session.commit()
     session.close()
