@@ -17,10 +17,9 @@ if __name__ == "__main__":
         db=sys.argv[3],
     )
 
-
-cur = db.cursor()
-cur.execute("SELECT * FROM states")
-x = cur.fetchall()
+    cur = db.cursor()
+    cur.execute("SELECT * FROM states")
+    x = cur.fetchall()
 
 for results in x:
     print(f"{results}")
