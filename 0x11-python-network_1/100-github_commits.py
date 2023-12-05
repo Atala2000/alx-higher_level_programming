@@ -9,7 +9,8 @@ if __name__ == "__main__":
     repository_name = sys.argv[1]
     owner = sys.argv[2]
 
-    url = "https://api.github.com/repos/{}/{}/commits".format(owner, repository_name)
+    url = "https://api.github.com/repos/{}/{}/commits".format(owner,
+                                                              repository_name)
 
     response = requests.get(url)
 
